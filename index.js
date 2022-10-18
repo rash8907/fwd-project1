@@ -40,8 +40,6 @@ class Brick{
         this.upRight = [xAxis + brickW, yAxis + brickH]
         this.lowLeft = [xAxis, yAxis]
         this.lowRight = [xAxis + brickW, yAxis]
-    
-
     }
 }
 
@@ -148,8 +146,6 @@ function movePlayer(e){
             
     }
 }
-
-
 let timer
 timer = setInterval(moveBall, 20)
 
