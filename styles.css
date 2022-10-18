@@ -1,0 +1,162 @@
+body{
+    background-color: black;
+  }
+  
+  h1{
+    position: relative;
+    color: aqua;
+    font-family: 'Audiowide', cursive;
+    font-weight: 700;
+    font-style: normal; 
+    font-size: 5em;
+    text-align: center;
+  }
+  
+  #title{
+    position: relative;
+    color: aqua;
+    font-family: 'Audiowide', cursive;
+    font-weight: 700;
+    font-style: normal; 
+    font-size: 5em;
+    text-align: center;
+    animation: color-change 2s infinite;
+  }
+  
+  @keyframes color-change {
+    0% { color: aqua; }
+    25% { color: rgb(255, 105, 180); }
+    50% { color: slateblue; }
+    75% { color: hotpink; }
+    100% { color: aqua; }
+  }
+  
+  .box {
+      position: absolute;
+      width: 560px;
+      height: 300px;
+      border: solid white 3px;
+      margin-top: 80px;
+      margin-left: 450px;
+    }
+  
+    #score{
+      position: relative;
+      color:blanchedalmond;
+      font-family: 'Audiowide';
+      font-weight: 700;
+      font-style: normal; 
+      font-size: 5em;
+      text-align: center;
+    }
+  
+    .brick{
+      position: absolute;
+      width: 100px;
+      height: 20px;
+      background-color: aqua;
+  
+    }
+  
+  
+    .player{
+      position: absolute;
+      width: 100px;
+      height: 20px;
+      background-color: hotpink;
+  
+    }
+  
+    .ball{
+      position: absolute;
+      width: 20px;
+      height: 20px;
+      border-radius: 10px;
+      background-color: blanchedalmond;
+    }
+  
+    button {
+      position: relative;
+      left: 42%;
+      bottom: 40%;
+      border: none;
+      background-color: aqua;
+      padding: 15px 32px;
+  
+      text-align: center;
+      color: black;
+  
+      font-family: 'Audiowide';
+      font-weight: 700;
+      font-style: normal; 
+      font-size: 3em;
+  
+      text-decoration: none;
+      display: inline-block;
+  
+      border-radius: 20px;
+  }
+  
+  .refresh-button{
+    background-color: hotpink;
+    width: fit-content;
+    height:fit-content;
+    font-family: 'Audiowide';
+    font-weight: 700;
+    font-style: normal; 
+    font-size: 1em;
+    margin-top: 50px;
+  }
+  
+  @media (max-width: 1250px) {
+    .box {
+      position: absolute;
+      width: 560px;
+      height: 300px;
+      border: solid white 3px;
+      margin-top: 80px;
+      margin-left: 50px;
+    }
+    .brick{
+      position: absolute;
+      width: 100px;
+      height: 20px;
+      background-color: aqua;
+  
+    }
+  
+    h1{
+      position: relative;
+      color: aqua;
+      font-family: 'Audiowide', cursive;
+      font-weight: 700;
+      font-style: normal; 
+      font-size: 3em;
+      text-align: center;
+    }
+    #title{
+      position: relative;
+      color: aqua;
+      font-family: 'Audiowide', cursive;
+      font-weight: 700;
+      font-style: normal; 
+      font-size: 3em;
+      text-align: center;
+      animation: color-change 2s infinite;
+    }
+    #score{
+      font-size: 3em;
+    }
+    button {
+      background-color: aqua;
+      width: fit-content;
+      height:fit-content;
+      font-family: 'Audiowide';
+      font-weight: 700;
+      font-style: normal; 
+      font-size: 2em;
+      margin-top: 50px;
+  }
+  
+  
+  }
