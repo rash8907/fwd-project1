@@ -196,7 +196,6 @@ function brickHits(){
                 scoreDisplay.innerHTML = score
 
                 changeDirection()
-
         }
 
     }
